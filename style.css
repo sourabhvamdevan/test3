@@ -173,7 +173,6 @@ footer {
     margin: 20px auto;
     max-width: 600px;
     padding: 20px;
-    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -187,14 +186,13 @@ footer {
 #root button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007BFF;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px;
+    margin: 10px;
 }
 
 #root button:hover {
-    background-color: #0056b3;
+    opacity: 0.9;
 }
