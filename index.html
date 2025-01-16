@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="sourabhvamdevan.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourabh Vamdevan (सौरभ वामदेवन)</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include React and ReactDOM -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+</head>
+<body>
+    <header>
+        <h1>Sourabh Vamdevan (सौरभ वामदेवन)</h1>
+        <h2>India (भारत)</h2>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="mailto:sourabhvamdevan@gmail.com">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="typewriter">
+            <h2>About Me</h2>
+            <p id="about-text">This is the website of Sourabh Vamdevan</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Machine learning codes</h3>
+            <p>This link contains machine learning codes for different machine learning concepts</p>
+            <a href="https://github.com/sourabhvamdevan/ml-codes"> LINK</a>
+        </div>
+        <div class="project-card">
+            <h3>(DSA)Data Structures & Algorithms</h3>
+            <p>Here I will solve 350 DSA questions.</p>
+            <a href="https://github.com/sourabhvamdevan/DSA"> LINK </a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sourabh Vamdevan (सौरभ वामदेवन). All rights reserved.</p>
+    </footer>
+
+    <!-- Add a div for React integration -->
+    <div id="root"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
